@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `image_data` (
+  `img_id` int(5) NOT NULL AUTO_INCREMENT,
+  `dataset_id` varchar(11) NOT NULL,
+  `filepath` varchar(100) NOT NULL,
+  `validate` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`img_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;
